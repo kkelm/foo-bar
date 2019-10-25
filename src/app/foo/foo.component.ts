@@ -20,6 +20,7 @@ export class FooComponent implements OnInit {
 
     changeSharedData = () => {
         console.log('Change Shared Data');
+        this.sdService.data = 'Foo';
     }
 
 }
